@@ -1,0 +1,4 @@
+node_modules/
+src/wxcomponents/
+src/components/lib/
+src/utils/uqrcode.js

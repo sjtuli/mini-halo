@@ -1,0 +1,34 @@
+// towxml
+
+.h2w__main {
+  margin: 0 !important;
+  padding-top: 0 !important;
+}
+
+.h2w {
+  font-weight: unset !important;
+  font-size: 30rpx !important;
+}
+
+.h2w__navigatorParent {
+  display: inline-block !important;
+}
+
+.h2w__s {
+  display: inline;
+}
+
+.h2w__ul,
+.h2w__ol {
+  padding-left: 1.2rem !important;
+}
+
+.h2w__td {
+  image {
+    width: 200rpx !important;
+  }
+}
+
+image {
+  display: block;
+}

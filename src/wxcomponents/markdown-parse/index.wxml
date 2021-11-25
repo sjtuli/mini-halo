@@ -1,0 +1,3 @@
+<block>
+  <towxml nodes="{{nodes}}"/>
+</block>

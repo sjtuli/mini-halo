@@ -1,0 +1,36 @@
+.section {
+  margin: 20rpx 24rpx;
+}
+
+.gap-section {
+  margin: 20rpx 0;
+}
+
+.section-padding {
+  padding: 20rpx 24rpx;
+}
+
+.font-shadow {
+  position: relative;
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.font-shadow::before {
+  content: "";
+  position: absolute;
+  height: 12rpx;
+  bottom: 6rpx;
+  // right: 2rpx;
+  left: 2rpx;
+  width: 40%;
+  background: linear-gradient(45deg, #1890ff 100%, #1890ff 0%);
+  transform: scaleX(1);
+  border-radius: 10rpx;
+  opacity: 0.7;
+}
+
+.default-hover-class {
+  opacity: 0.6;
+}

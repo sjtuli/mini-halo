@@ -1,0 +1,14 @@
+.cl-icon {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 8rpx;
+  &-icon {
+    position: relative;
+  }
+
+  &-image {
+    height: auto;
+    will-change: transform;
+  }
+}
